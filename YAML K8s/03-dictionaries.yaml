@@ -1,0 +1,6 @@
+color: blue
+model:
+..name: "SUV"
+..year: 2006
+  make: "Car makers"
+  

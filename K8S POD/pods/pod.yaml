@@ -1,0 +1,29 @@
+# apiVersion: v1
+# kind: pod
+# metadata:
+#   name: myFirstPod
+# spec:
+#   containers:
+#     -name: nginx-cn
+#      image: nginx
+#      ports: 
+#       contai
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels:
+    name: nginx
+spec:
+  containers:
+  - name: nginx-cn
+    image: nginx
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 80
+

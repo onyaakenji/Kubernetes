@@ -1,0 +1,5 @@
+cars: 
+  -model:
+    color: "red"
+    year: 2006
+    name: Mercedes
